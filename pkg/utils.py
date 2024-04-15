@@ -1,6 +1,7 @@
 """Define helper functions for the preictive model."""
 
 import numpy as np
+import re
 
 
 def pipetidebert_preprocess(file):
