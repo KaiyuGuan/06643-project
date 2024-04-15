@@ -1,3 +1,4 @@
+"""Setup for the package."""
 from setuptools import setup
 
 setup(
@@ -9,5 +10,6 @@ setup(
     license="MIT",
     packages=["pkg"],
     scripts=[],
-    long_description="""The package include the helper function that is used for the affnity prediction model ProteinMoleculeAffinityPredictor""",
+    long_description="""The package include the helper function that is used
+    for the affnity prediction model ProteinMoleculeAffinityPredictor""",
 )

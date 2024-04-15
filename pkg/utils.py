@@ -70,7 +70,8 @@ def pipetidebert_preprocess(file):
             range(30),
         )
     )
-    arr = np.array(list(map(lambda x: m2[m1[int(x)]], f["arr_0"].flat))).reshape(
+    arr = np.array(list(map(lambda x: m2[m1[int(x)]],
+                            f["arr_0"].flat))).reshape(
         f["arr_0"].shape
     )
 
