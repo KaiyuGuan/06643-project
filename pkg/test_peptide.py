@@ -1,8 +1,8 @@
-"""Tests for the pipetidebert_preprocess function in the package."""
+"""Tests for the peptidebert_preprocess function in the package."""
 import os
 import pytest
 import numpy as np
-from pkg import pipetidebert_preprocess
+from pkg import peptidebert_preprocess
 
 
 @pytest.fixture
@@ -48,9 +48,9 @@ def test_file():
 class TestPipetide:
     """A Test class for the function pipetidebert_preprocess."""
 
-    def test_pipetidebert_preprocess(self, test_file):
-        """Test pipetidebert_preprocess."""
-        pipetidebert_preprocess(test_file)
+    def test_peptidebert_preprocess(self, test_file):
+        """Test peptidebert_preprocess."""
+        peptidebert_preprocess(test_file)
         processed_data = np.load(test_file)
         assert np.array_equal(
             processed_data["arr_0"],
