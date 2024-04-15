@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from setuptools import setup
 
 setup(name='pkg',
@@ -10,6 +9,3 @@ setup(name='pkg',
       packages=['pkg'],
       scripts=[],
       long_description='''The package include the helper function that is used for the affnity prediction model ProteinMoleculeAffinityPredictor''')
-=======
-"""The setup file"""
->>>>>>> 96491477c53194df382c960054be600fbeb2886e
