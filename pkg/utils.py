@@ -4,8 +4,8 @@ import numpy as np
 import re
 
 
-def pipetidebert_preprocess(file):
-    """Preprocess protein sequence for pipetidebert model.
+def peptidebert_preprocess(file):
+    """Preprocess protein sequence for peptidebert model.
 
     file: string of path to file
     """
@@ -78,7 +78,7 @@ def pipetidebert_preprocess(file):
 
 
 def preprocess_protein_sequence(seq):
-    """Preprocess protein sequence for pipetidebert model.
+    """Preprocess protein sequence for ProtBert model.
 
     seq: string representation of amino acid sequence
     """
