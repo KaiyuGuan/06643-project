@@ -9,6 +9,11 @@ In this package, the helper functions focus primarily on the data pre-processing
 - the function `peptidebert_preprocess` is designed for the transformer peptidebert. The function takes arrays of integers as input and returns arrays of integers. The details of this function will be discussed in later sections.
 - the function `preprocess_protein_sequence` is designed for the transformer ProtBert, which is not part of the model. However, we use it as a comparison to PeptideBert transformer. Both these transformers tokenizes the amino acid sequences of a protein in order to obtain something that machines has better understanding of. 
 
+# Future Steps
+The project that I am working on is still in progress and these are just the helper functions that I encountered during my research and training. As the project keeps developing and furnishing, more helper functions will be added to this package. 
+
+It is important to note that not all helper functions used in the project is included in this package. Some helper functions are not included due to the computational constraints (these functions are the ones that run for hours even on GPUs).
+
 # Reference
 More details about the transformers discussed can be found in the following link:
 
